@@ -57,6 +57,8 @@
   font-weight: 500;
   padding: 10px;
   gap: 10px;
+
+  word-break: break-word;
 }
 
 .post__actions {
