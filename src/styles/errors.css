@@ -1,0 +1,9 @@
+.error-message {
+  font-size: 36px;
+  text-align: center;
+  align-content: center;
+}
+
+.error-message__title {
+  font-size: 48px;
+}
