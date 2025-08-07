@@ -1,0 +1,24 @@
+@url = http://localhost:3000
+
+###
+
+GET {{url}}/posts/2
+
+###
+
+POST {{url}}/posts
+Content-Type: application/json
+
+{
+  "content": "Пост из REST Client"
+}
+
+###
+
+DELETE {{url}}/posts/1
+
+###
+
+GET {{url}}/posts
+
+###
